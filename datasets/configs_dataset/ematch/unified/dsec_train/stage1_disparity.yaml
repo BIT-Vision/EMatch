@@ -1,0 +1,12 @@
+name: 'dsec'
+task: 'disparity'
+SequenceClass: 'DSECSequence_ematch_disparity'
+
+root_path: 'data/DSEC'
+split: 'train'
+Cache_path: "data/DSEC/cache/DSECSequence_ematch_disparity/train/voxel_dt100_bins15_us/"
+
+dt: 100
+voxel_bins: 15
+
+crop_size: [288,384]

@@ -1,0 +1,14 @@
+name: 'mvsec'
+task: 'flow'
+SequenceClass: 'MVSECSequence_ematch_flow'
+SequenceNames: ['indoor_flying1', 'indoor_flying2', 'indoor_flying3', 'outdoor_day1']
+
+root_path: 'data/MVSEC'
+split: 'test'
+location: 'left'
+
+dt: 4
+voxel_bins: 15
+
+crop_size: [256,256]
+augment: False

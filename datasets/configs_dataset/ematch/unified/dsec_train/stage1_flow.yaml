@@ -1,0 +1,13 @@
+name: 'dsec'
+task: 'flow'
+SequenceClass: 'DSECSequence_ematch_flow'
+
+root_path: 'data/DSEC'
+split: 'train'
+location: 'left'
+Cache_path: "data/DSEC/cache/DSECSequence_ematch_flow/train/left/voxel_dt100_bins15_us/"
+
+dt: 100
+voxel_bins: 15
+
+crop_size: [288,384]

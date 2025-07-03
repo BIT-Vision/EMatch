@@ -1,0 +1,13 @@
+name: 'mvsec'
+task: 'disparity'
+SequenceClass: 'MVSECSequence_ematch_disparity'
+SequenceNames: ['outdoor_day2']
+
+root_path: 'data/MVSEC'
+split: 'train'
+
+dt: 88
+voxel_bins: 15
+
+crop_size: [256, 256]
+augment: True

@@ -1,0 +1,18 @@
+tasks: ['disparity']
+
+input_dim: 15
+feature_channels: 128
+split: 5
+
+num_scales: 2
+upsample_factor: 4
+attn_type: 'swin'
+attn_splits_list: [1,8]
+corr_radius_list: [-1,4]
+prop_radius_list: [-1,1]
+
+num_head: 1
+ffn_dim_expansion: 4
+num_transformer_layers: 6
+
+num_refine: 3

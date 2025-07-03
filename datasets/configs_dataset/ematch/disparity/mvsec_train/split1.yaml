@@ -1,0 +1,13 @@
+name: 'mvsec'
+task: 'disparity'
+SequenceClass: 'MVSECSequence_ematch_disparity'
+SequenceNames: ['indoor_flying2', 'indoor_flying3']
+
+root_path: 'data/MVSEC'
+split: 'train'
+
+dt: 100
+voxel_bins: 15
+
+crop_size: [256, 320]
+augment: True
