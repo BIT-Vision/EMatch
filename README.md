@@ -16,7 +16,7 @@ This is the official codebase for the paper **EMatch: A Unified Framework for Ev
 
 ## 👀 Introduction
 
-EMatch is a unified framework applicable to both optical flow and stereo matching for event cameras. We reformulate these two tasks as a pixel-wise correspondence matching problem and design a novel unified framework to solve them within a shared representation space. Within our unified framework, you can either train the single-task model for flow or disparity separately, or jointly train a multi-task model — both achieve optimal performance.
+EMatch is a unified framework applicable to both optical flow and stereo matching for event cameras. We reformulate these two tasks as a pixel-wise correspondence matching problem and design a novel unified framework to solve them within a shared representation space. Our unified framework supports both separate training of single-task models for optical flow and disparity, and joint training of a multi-task model — each method achieves optimal performance.
 
 <p align="center">
     <img src="assets/framework.png" width="95%"> <br>
