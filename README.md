@@ -71,7 +71,7 @@ Details about the datasets can be found in the [data/README.md](./data/README.md
 
 All training and evaluation scripts are provided in the `/scripts` directory. 
 
-For example, you can run the `.sh` files directly from the command line to obtain results of *EMatch-unified*:
+For example, you can run the `.sh` files directly from the command line to obtain results of EMatch:
 
 ```
 sh ./scripts/test/unified/dsec_ematch_flow.py
@@ -80,7 +80,7 @@ sh ./scripts/test/unified/mvsec_ematch_flow.py
 sh ./scripts/test/unified/mvsec_ematch_disparity.py
 ```
 
-You can run the following `.sh` files to train *EMatch-unified*:
+You can run the following `.sh` files to train EMatch:
 
 ```
 sh ./scripts/train/unified/dsec_ematch_stage1.sh
