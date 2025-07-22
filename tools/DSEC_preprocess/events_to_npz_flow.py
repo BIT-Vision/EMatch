@@ -66,7 +66,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--root_path', default='/ssd/zhangpengjie/DSEC', type=str)
-    parser.add_argument('--save_path', default='/ssd/zhangpengjie/DSEC/cache/DSECSequence_flow_eventImage/test/left/voxel_dt100_bins15_us/', type=str)
+    parser.add_argument('--save_path', default='/ssd/zhangpengjie/DSEC/cache/DSECSequence_ematch_flow/test/left/voxel_dt100_bins15_us/', type=str)
     parser.add_argument('--split', default='test', type=str)
 
     parser.add_argument('--dt', default=100, type=int)
