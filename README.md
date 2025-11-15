@@ -10,6 +10,8 @@ This is the official codebase for the paper **EMatch: A Unified Framework for Ev
 
 ## 💥 News
 
+- **[2025.11.15]** ✨ The checkpoints have been organized and published.
+
 - **[2025.07.03]** 🚀 We released the traning and evaluation code.
 
 - **[2025.06.24]** 🎉 EMatch is accepted by ICCV 2025.
