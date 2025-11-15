@@ -58,7 +58,7 @@ You can refer to the following installation steps:
 
 ## 🤖️ Checkpoints
 
-You can download all checkpoints here: [Google Drive]() / [BaiduDisk]()
+You can download all checkpoints here: [Google Drive](https://drive.google.com/drive/folders/1geAMTtWiySkU17SbWa3PH4mkSCinCEk6?usp=sharing) / [BaiduDisk](https://pan.baidu.com/s/1yPLWfswXg9jqxNoWzkrkLw?pwd=pjir)
 
 ## 📁 Datasets
 
